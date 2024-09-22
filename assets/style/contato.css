@@ -1,0 +1,73 @@
+@import url(style.css);
+
+/* Estilos gerais para o main e div */
+main.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #74512D; /* Cor de fundo suave */
+}
+
+.contato-formulario {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar o formulário */
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Estilos para o formulário */
+form.formulario {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+}
+
+/* Estilos para os labels */
+form.formulario label {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Estilos para os inputs */
+form.formulario input[type="text"],
+form.formulario input[type="number"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box; /* Garante que a largura do input respeite o tamanho do container */
+}
+
+/* Estilo para o botão de enviar */
+form.formulario input[type="submit"] {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form.formulario input[type="submit"]:hover {
+    background-color: #45a049; /* Cor mais escura quando o botão é hover */
+}
+
+/* Adicionar responsividade */
+@media (max-width: 600px) {
+    .contato-formulario {
+        padding: 15px;
+    }
+
+    form.formulario input {
+        font-size: 12px;
+    }
+}
+

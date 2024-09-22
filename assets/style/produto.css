@@ -1,0 +1,100 @@
+@import url(style.css);
+
+.conteudo-produto {
+    text-align: center;
+    padding: 22px;
+    margin: 20px;
+} 
+
+.secao-produto {
+    padding: 10px;
+    margin: 10px;
+}
+
+.conteudo-principal_produto {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding: 15px;
+    margin: 15px;
+}
+
+.div-produto {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+.produtos-lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin: 2px;
+    gap: 20px;
+   
+}
+#imagens-produto1 {
+    width: 160px;
+
+}
+
+#imagens-produto2 {
+    width: 180px;
+}
+
+#imagens-produto3 {
+    width: 150px;
+    height: 230px;
+}
+
+#imagens-produto4 {
+    width: 170px;
+    height: 240px;
+}
+
+#imagens-produto5 {
+    width: 170px;
+}
+
+.lista-dos-produtos {
+   list-style-type: none;
+   border: 2px solid white;
+   border-radius: 8px;
+   padding: 12px 5px;
+   margin: 10px 6px;
+   
+}
+
+.produtos-titulo-descricao{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    padding: 2px;
+    margin: 2px;
+}
+
+.produtos-paragrafo {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+.produtos-botao {
+    background-color: azure;
+    padding: 10px;
+    margin: 12px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.produtos-botao:hover {
+    background-color: #74512D;
+}
+
+.link-botao {
+    text-decoration: none;
+    color: black;
+}

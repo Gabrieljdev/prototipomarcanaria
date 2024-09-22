@@ -1,0 +1,15 @@
+@import url(style.css);
+
+.conteudo-principal-endereco {
+    text-align: center;
+
+}
+
+.endereco {
+  padding: 15px;
+  margin: 10px;
+}
+.conteudo-principal_cabecalho {
+    padding: 5px;
+    margin: 2px;
+}
